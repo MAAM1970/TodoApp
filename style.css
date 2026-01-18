@@ -117,8 +117,8 @@ form {
 
 .custom-checkbox {
   border: 2px solid var(--accent-color);
-  min-width: 1.6rem;
-  min-height: 1.6rem;
+  min-width: 1.2rem;
+  min-height: 1.2rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
