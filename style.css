@@ -88,6 +88,7 @@ form {
   border-radius: 0.8rem;
   display: flex;
   align-items: center;
+  gap: 0.6rem;
 }
 
 .todo .todo-text {
@@ -133,7 +134,7 @@ input[type="checkbox"]:checked ~ .custom-checkbox {
 }
 
 input[type="checkbox"]:checked ~ .custom-checkbox svg {
-  fill: var(--primary-color-color);
+  fill: var(--primary-color);
 }
 
 input[type="checkbox"]:checked ~ .todo-text {
