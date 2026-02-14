@@ -9,7 +9,7 @@
   </head>
   <body>
     <h1 class="todos-title">Todo App</h1>
-    <div class="container">
+    <main class="container">
       <form>
         <input
           id="todo-input"
@@ -18,7 +18,7 @@
           autocomplete="off"
           required
         />
-        <button id="add-button">ADD</button>
+        <button id="add-button" type="submit">ADD</button>
       </form>
       <ul id="todo-list">
         <!-- <li class="todo">
@@ -83,6 +83,11 @@
           </button>
         </li> -->
       </ul>
-    </div>
+      <nav class="filter-btns">
+        <button class="filter-btn all-btn">ALL</button>
+        <button class="filter-btn active-btn">ACTIVE</button>
+        <button class="filter-btn completed-btn">COMPLETED</button>
+      </nav>
+    </main>
   </body>
 </html>
